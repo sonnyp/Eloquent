@@ -25,6 +25,13 @@
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.1" date="2025-02-19">
+      <ul>
+        <li>Improve language detection</li>
+        <li>Runs LanguageTool as a service in the background</li>
+        <li>Fix a small UI bug in the status bar</li>
+      </ul>
+    </release>
     <release version="1.0" date="2025-02-12">
       <description>This is the first release of Eloquent. We hope you like it.</description>
     </release>

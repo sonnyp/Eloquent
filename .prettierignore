@@ -1,7 +1,0 @@
-build/
-install/
-flatpak/
-node_modules/
-repo/
-test/assert.js
-test/uvu.js

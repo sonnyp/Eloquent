@@ -2,6 +2,8 @@
   "imports": {
     "gi://Soup": "gi://Soup?version=3.0",
     "gi://Gtk": "gi://Gtk?version=4.0",
-    "troll": "../troll/src/main.js"
+    "troll": "../troll/src/main.js",
+    "gi://Xdp": "gi://Xdp?version=1.0"
   }
 }
+

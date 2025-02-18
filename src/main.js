@@ -1,6 +1,7 @@
 import Gio from "gi://Gio";
 import GLib from "gi://GLib";
 import Soup from "gi://Soup";
+import Xdp from "gi://Xdp";
 
 import Application from "./application.js";
 
@@ -10,10 +11,15 @@ Gio._promisify(Soup.Session.prototype, "send_async", "send_finish");
 Gio._promisify(Gio.OutputStream.prototype, "splice_async", "splice_finish");
 Gio._promisify(Gio.Subprocess.prototype, "wait_async", "wait_finish");
 Gio._promisify(
-  Gio.DataInputStream.prototype,
-  "read_line_async",
-  "read_line_finish_utf8",
+  Xdp.Portal.prototype,
+  "request_background",
+  "request_background_finish",
 );
+Gio._promisify(
+  Xdp.Portal.prototype,
+  "set_background_status",
+  "set_background_status_finish",
+)
 
 export function main(argv) {
   const application = Application();

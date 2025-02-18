@@ -98,28 +98,16 @@ export async function getLanguages() {
   return request("GET", "languages");
 }
 
-// TODO: support synonyms
-// export async function getWords() {
-//   return request("GET", "words", { username: "cool", apiKey: "wow" });
-// }
+Gio._promisify(
+  Gio.DataInputStream.prototype,
+  "read_line_async",
+  "read_line_finish_utf8",
+);
 
 async function* createReadLineIterator(dataInputStream, ioPriority = Gio.PRIORITY_DEFAULT) {
-  function next() {
-    return new Promise((resolve, reject) => {
-      dataInputStream.read_line_async(ioPriority, null, (_self, res) => {
-        try {
-          const line = dataInputStream.read_line_finish_utf8(res);
-          resolve(line);
-        } catch (err) {
-          reject(err);
-        }
-      });
-    });
-  }
-
   while (true) {
     // eslint-disable-next-line no-await-in-loop
-    const [line] = await next();
+    const [line] = await dataInputStream.read_line_async(ioPriority, null)
     if (line === null)
       return;
     yield line;
