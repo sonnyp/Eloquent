@@ -7,8 +7,8 @@
   xmlns="http://usefulinc.com/ns/doap#"
 >
   <name>Eloquent</name>
-  <shortdesc>Application chooser</shortdesc>
-  <description>Check your grammar.</description>
+  <shortdesc>Your proofreading assistant</shortdesc>
+  <description>Eloquent is a proofreading software for English, Spanish, French, German, Portuguese, Polish, Dutch, and more than 20 other languages. It finds many errors that a simple spell checker cannot detect.</description>
 
   <homepage rdf:resource="https://eloquent.sonny.re" />
   <bug-database rdf:resource="https://eloquent.sonny.re/feedback" />

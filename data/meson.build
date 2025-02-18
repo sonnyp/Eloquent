@@ -51,3 +51,5 @@ endif
 
 install_data('icons/re.sonny.Eloquent.svg', install_dir: join_paths(get_option('datadir'), 'icons/hicolor/scalable/apps'))
 install_data('icons/re.sonny.Eloquent-symbolic.svg', install_dir: join_paths(get_option('datadir'), 'icons/hicolor/symbolic/apps'))
+
+install_data('server.properties', install_dir: join_paths(get_option('datadir')))

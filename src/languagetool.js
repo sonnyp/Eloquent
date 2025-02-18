@@ -29,6 +29,8 @@ export async function startLanguageTool() {
       "org.languagetool.server.HTTPServer",
       "--port",
       PORT.toString(),
+      "--config",
+      "/app/share/server.properties"
     ],
     // Gio.SubprocessFlags.NONE,
     Gio.SubprocessFlags.INHERIT_FDS | Gio.SubprocessFlags.STDOUT_PIPE,
@@ -40,6 +42,7 @@ export async function startLanguageTool() {
   });
 
   for await (const line of createReadLineIterator(stdout_stream)) {
+    console.debug(line);
     if (line?.endsWith("Server started")) break;
   }
 

@@ -12,6 +12,7 @@ It works fully offline, powered by [LanguageTool standalone server](https://gith
 
 <a href='https://flathub.org/apps/re.sonny.Eloquent'><img width='240' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/></a>
 
+<!--
 ## Development
 
 ```sh
@@ -27,6 +28,8 @@ Use `<Primary><Shift>I` to open the inspector.
 ```
 java -cp LanguageTool-6.5/languagetool-server.jar org.languagetool.server.HTTPServer --port 8081
 ```
+
+-->
 
 ## Maintainer
 
