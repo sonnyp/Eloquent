@@ -40,6 +40,12 @@ GLib ${getGLibVersion()}
   //   // or
   //   // "John Doe https://john.com",
   // ]);
+
+  dialog.add_legal_section("LanguageTool", "© 2005 the LanguageTool community and Daniel Naber\nhttps://github.com/languagetool-org/languagetool/", Gtk.License.LGPL_2_1, null);
+  dialog.add_legal_section("fastText", "© 2022 Facebook Inc\nhttps://fasttext.cc/", Gtk.License.MIT_X11, null);
+  dialog.add_legal_section("fastText language identification model", "© 2022 Facebook Inc\nhttps://fasttext.cc/docs/en/language-identification.html", Gtk.License.CUSTOM, "CC BY-SA 3.0");
+
+
   dialog.present(application.get_active_window());
 
   return { dialog };
