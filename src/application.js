@@ -18,21 +18,9 @@ export default function Application() {
 
   const application = new Adw.Application({
     application_id: "re.sonny.Eloquent",
-    flags: Gio.ApplicationFlags.HANDLES_OPEN,
   });
   // Prevent application from quitting if no windows are open
   application.hold();
-
-  // application.connect("open", (self, files, hint) => {
-  //   // log(["open", files.length, hint]);
-
-  //   files.forEach((file) => {
-  //     Window({
-  //       application,
-  //       file,
-  //     });
-  //   });
-  // });
 
   application.connect("activate", () => {
     const {window} = Window({
