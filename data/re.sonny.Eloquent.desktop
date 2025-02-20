@@ -1,5 +1,5 @@
 [Desktop Entry]
-# TRANSLATORS: Don't translate
+# TRANSLATORS: Don't translate, it's the app name
 Name=Eloquent
 Comment=Your proofreading assistant
 Exec=re.sonny.Eloquent %U
@@ -7,7 +7,7 @@ Terminal=false
 Type=Application
 Categories=Office;WordProcessor;TextTools;Utility;GNOME;GTK;
 Icon=re.sonny.Eloquent
-# TRANSLATORS: Don't translate
+# TRANSLATORS: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 Keywords=LanguageTool;spell;grammar;
 DBusActivatable=true
 StartupNotify=true
