@@ -31,12 +31,12 @@ configure_file(
   install_dir: join_paths(get_option('datadir'), 'dbus-1/services')
 )
 
-appstream_util = find_program('appstream-util', required: false)
-if appstream_util.found()
-  test('Validate appstream file', appstream_util,
-    args: ['validate', appstream_file]
-  )
-endif
+appstreamcli = find_program('appstreamcli', required: true)
+test(
+  'Validate appstream file',
+  appstreamcli,
+  args: ['validate', '--no-net', '--explain', appstream_file],
+)
 
 install_data('re.sonny.Eloquent.gschema.xml',
   install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
