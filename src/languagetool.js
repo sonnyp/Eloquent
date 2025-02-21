@@ -27,6 +27,9 @@ export async function startLanguageTool() {
       "-cp",
       "/app/LanguageTool/languagetool-server.jar",
       "org.languagetool.server.HTTPServer",
+      // Required for Thunderbird
+      // https://forum.languagetool.org/t/problem-with-local-server-with-thunderbird/7313
+      "--allow-origin",
       "--port",
       PORT.toString(),
       "--config",

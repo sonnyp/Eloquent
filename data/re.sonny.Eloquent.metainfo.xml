@@ -28,6 +28,14 @@
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.2" date="2025-02-22">
+      <description>
+        <ul>
+          <li>Fix compatibity with Thunderbird</li>
+          <li>Fix symbolic icon</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.1" date="2025-02-19">
       <description>
         <ul>
