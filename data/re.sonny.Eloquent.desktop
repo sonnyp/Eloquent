@@ -8,6 +8,6 @@ Type=Application
 Categories=Office;WordProcessor;TextTools;Utility;GNOME;GTK;
 Icon=re.sonny.Eloquent
 # TRANSLATORS: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-Keywords=LanguageTool;spell;grammar;
+Keywords=LanguageTool;spell;grammar;mistake;error;fix;proofread;assistant;check;
 DBusActivatable=true
 StartupNotify=true
