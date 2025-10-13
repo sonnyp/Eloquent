@@ -55,7 +55,9 @@
       </description>
     </release>
     <release version="1.0" date="2025-02-12">
-      <description>This is the first release of Eloquent. We hope you like it.</description>
+      <description>
+        <p>This is the first release of Eloquent. We hope you like it.</p>
+      </description>
     </release>
   </releases>
   <kudos>
