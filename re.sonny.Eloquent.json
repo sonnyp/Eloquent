@@ -1,12 +1,10 @@
 {
   "id": "re.sonny.Eloquent",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "47",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "re.sonny.Eloquent",
-  "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.openjdk21"
-  ],
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk21"],
   "finish-args": [
     "--share=network",
     "--share=ipc",
@@ -35,9 +33,7 @@
     {
       "name": "fastText model",
       "buildsystem": "simple",
-      "build-commands": [
-        "cp lid.176.bin /app/fastText"
-      ],
+      "build-commands": ["cp lid.176.bin /app/fastText"],
       "sources": [
         {
           "type": "file",
@@ -49,9 +45,7 @@
     {
       "name": "LanguageTool",
       "buildsystem": "simple",
-      "build-commands": [
-        "cp -r . /app/LanguageTool"
-      ],
+      "build-commands": ["cp -r . /app/LanguageTool"],
       "sources": [
         {
           "type": "archive",
@@ -63,24 +57,7 @@
         {
           "name": "openjdk",
           "buildsystem": "simple",
-          "build-commands": [
-            "/usr/lib/sdk/openjdk21/install.sh"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "blueprint-compiler",
-      "buildsystem": "meson",
-      "cleanup": [
-        "*"
-      ],
-      "sources": [
-        {
-          "type": "git",
-          "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler.git",
-          "commit": "04ef0944db56ab01307a29aaa7303df6067cb3c0",
-          "tag": "v0.16.0"
+          "build-commands": ["/usr/lib/sdk/openjdk21/install.sh"]
         }
       ]
     },
