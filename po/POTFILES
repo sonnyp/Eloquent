@@ -1,0 +1,10 @@
+src/application.js
+src/main.js
+src/window.js
+src/about.js
+src/bin.js
+src/DropdownLang.js
+src/languagetool.js
+src/ShortcutsWindow.js
+src/util.js
+src/widgets/SuggestionPopover.js
