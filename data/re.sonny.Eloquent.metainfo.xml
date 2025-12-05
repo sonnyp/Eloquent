@@ -6,7 +6,7 @@
   <developer id="re.sonny">
     <name translate="no">Sonny Piers</name>
   </developer>
-  <update_contact>sonnyp@gnome.org</update_contact>
+  <update_contact>eloquent@sonny.re</update_contact>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
   <summary>Your proofreading assistant</summary>
@@ -28,6 +28,13 @@
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.4" date="2025-12-XX">
+      <description>
+        <ul>
+          <li>Update LanguageTool from 6.5 to 20251204</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.3" date="2025-10-13">
       <description>
         <ul>

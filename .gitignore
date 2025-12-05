@@ -12,5 +12,4 @@ install
 *.flatpak
 *.gresource
 .fenv
-LanguageTool-6.5
-LanguageTool-6.5.zip
+.foundry

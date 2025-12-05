@@ -31,7 +31,7 @@
       ]
     },
     {
-      "name": "fastText model",
+      "name": "fasttext-model",
       "buildsystem": "simple",
       "build-commands": ["cp lid.176.bin /app/fastText"],
       "sources": [
@@ -49,8 +49,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://languagetool.org/download/LanguageTool-6.5.zip",
-          "sha256": "27f3ae5a29efbc8267a5a266908dfec205d16d312af8516e0b5bcec871edea0b"
+          "url": "https://internal1.languagetool.org/snapshots/LanguageTool-20251204-snapshot.zip",
+          "sha256": "90801bb00defd428c21c3c0d50aa7a80ef16eadd6d27cb516852ef86dcae2a88"
         }
       ],
       "modules": [
