@@ -28,10 +28,11 @@
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
-    <release version="1.4" date="2025-12-XX">
+    <release version="1.4" date="2025-12-05">
       <description>
         <ul>
           <li>Update LanguageTool from 6.5 to 20251204</li>
+          <li>Fix background service</li>
         </ul>
       </description>
     </release>
