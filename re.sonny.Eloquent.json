@@ -24,9 +24,13 @@
       ],
       "sources": [
         {
-          "type": "git",
-          "url": "https://github.com/facebookresearch/fastText.git",
-          "commit": "1142dc4c4ecbc19cc16eee5cdd28472e689267e6"
+          "type": "archive",
+          "url": "https://github.com/facebookresearch/fastText/archive/v0.9.2.tar.gz",
+          "sha256": "7ea4edcdb64bfc6faaaec193ef181bdc108ee62bb6a04e48b2e80b639a99e27e"
+        },
+        {
+            "type": "patch",
+            "path": "patches/fasttext_cstdint.patch"
         }
       ]
     },
