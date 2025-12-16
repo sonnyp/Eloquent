@@ -29,8 +29,8 @@
           "sha256": "7ea4edcdb64bfc6faaaec193ef181bdc108ee62bb6a04e48b2e80b639a99e27e"
         },
         {
-            "type": "patch",
-            "path": "patches/fasttext_cstdint.patch"
+          "type": "patch",
+          "path": "patches/fasttext_cstdint.patch"
         }
       ]
     },
