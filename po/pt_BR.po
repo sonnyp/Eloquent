@@ -1,0 +1,201 @@
+# Portuguese translations for re.sonny.Eloquent package
+# Traduções em português brasileiro para o pacote re.sonny.Eloquent.
+# Copyright (C) 2025 THE re.sonny.Eloquent'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the re.sonny.Eloquent package.
+#  <john@archlinux>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: re.sonny.Eloquent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-23 14:38-0300\n"
+"PO-Revision-Date: 2025-05-23 14:38-0300\n"
+"Last-Translator:  <john@archlinux>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-"
+"translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/window.js:71
+msgid "Grammar"
+msgstr ""
+
+#. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
+#: src/about.js:29
+msgid "translator-credits"
+msgstr ""
+
+#: src/DropdownLang.js:49
+msgid "Auto"
+msgstr ""
+
+#: src/DropdownLang.js:50
+msgid "Arabic"
+msgstr ""
+
+#: src/DropdownLang.js:51
+msgid "Asturian"
+msgstr ""
+
+#: src/DropdownLang.js:52
+msgid "Belarusian"
+msgstr ""
+
+#: src/DropdownLang.js:53
+msgid "Breton"
+msgstr ""
+
+#: src/DropdownLang.js:54
+msgid "Catalan"
+msgstr ""
+
+#: src/DropdownLang.js:55
+msgid "Catalan (Valencian)"
+msgstr ""
+
+#: src/DropdownLang.js:56
+msgid "Chinese"
+msgstr ""
+
+#: src/DropdownLang.js:57
+msgid "Danish"
+msgstr ""
+
+#: src/DropdownLang.js:58
+msgid "Dutch"
+msgstr ""
+
+#: src/DropdownLang.js:59
+msgid "English (Australia)"
+msgstr ""
+
+#: src/DropdownLang.js:60
+msgid "English (British)"
+msgstr ""
+
+#: src/DropdownLang.js:61
+msgid "English (Canada)"
+msgstr ""
+
+#: src/DropdownLang.js:62
+msgid "English (New Zealand)"
+msgstr ""
+
+#: src/DropdownLang.js:63
+msgid "English (South Africa)"
+msgstr ""
+
+#: src/DropdownLang.js:64
+msgid "English (US)"
+msgstr ""
+
+#: src/DropdownLang.js:65
+msgid "Esperanto"
+msgstr ""
+
+#: src/DropdownLang.js:66
+msgid "French"
+msgstr ""
+
+#: src/DropdownLang.js:67
+msgid "Galician"
+msgstr ""
+
+#: src/DropdownLang.js:68
+msgid "German (Austria)"
+msgstr ""
+
+#: src/DropdownLang.js:69
+msgid "German (Germany)"
+msgstr ""
+
+#: src/DropdownLang.js:70
+msgid "German (Switzerland)"
+msgstr ""
+
+#: src/DropdownLang.js:71
+msgid "Greek"
+msgstr ""
+
+#: src/DropdownLang.js:72
+msgid "Irish"
+msgstr ""
+
+#: src/DropdownLang.js:73
+msgid "Italian"
+msgstr ""
+
+#: src/DropdownLang.js:74
+msgid "Japanese"
+msgstr ""
+
+#: src/DropdownLang.js:75
+msgid "Khmer"
+msgstr ""
+
+#: src/DropdownLang.js:76
+msgid "Norwegian"
+msgstr ""
+
+#: src/DropdownLang.js:77
+msgid "Persian"
+msgstr ""
+
+#: src/DropdownLang.js:78
+msgid "Polish"
+msgstr ""
+
+#: src/DropdownLang.js:79
+msgid "Portuguese (Angola)"
+msgstr ""
+
+#: src/DropdownLang.js:80
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: src/DropdownLang.js:81
+msgid "Portuguese (Mozambique)"
+msgstr ""
+
+#: src/DropdownLang.js:82
+msgid "Portuguese (Portugal)"
+msgstr ""
+
+#: src/DropdownLang.js:83
+msgid "Romanian"
+msgstr ""
+
+#: src/DropdownLang.js:84
+msgid "Russian"
+msgstr ""
+
+#: src/DropdownLang.js:85
+msgid "Slovak"
+msgstr ""
+
+#: src/DropdownLang.js:86
+msgid "Slovenian"
+msgstr ""
+
+#: src/DropdownLang.js:87
+msgid "Spanish"
+msgstr ""
+
+#: src/DropdownLang.js:88
+msgid "Swedish"
+msgstr ""
+
+#: src/DropdownLang.js:89
+msgid "Tagalog"
+msgstr ""
+
+#: src/DropdownLang.js:90
+msgid "Tamil"
+msgstr ""
+
+#: src/DropdownLang.js:91
+msgid "Ukrainian"
+msgstr ""
