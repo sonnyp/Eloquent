@@ -1,17 +1,17 @@
 {
   "id": "re.sonny.Eloquent",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "50",
+  "runtime-version": "51",
   "sdk": "org.gnome.Sdk",
   "command": "re.sonny.Eloquent",
-  "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk25"],
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk"],
   "finish-args": [
     "--share=network",
     "--share=ipc",
     "--socket=fallback-x11",
     "--socket=wayland",
     "--device=dri",
-    "--env=PATH=/app/jre/bin:/usr/bin:/app/bin"
+    "--env=PATH=/app/jre/bin:/app/bin:/usr/bin"
   ],
   "modules": [
     {
@@ -50,33 +50,15 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://internal1.languagetool.org/snapshots/LanguageTool-20260824-snapshot.zip",
-          "sha256": "5fb3f3eb85bcce46b6836990be87a76f322f1fcb318540a3ac347ce7428f9d19"
+          "url": "https://internal1.languagetool.org/snapshots/LanguageTool-20260925-snapshot.zip",
+          "sha256": "28876df2423363d6dd72495049a8f0f0c9c1fcb6e41b18e33cb6dbd8ac53ab02"
         }
       ],
       "modules": [
         {
           "name": "openjdk",
           "buildsystem": "simple",
-          "build-commands": ["/usr/lib/sdk/openjdk25/install.sh"]
-        }
-      ]
-    },
-    {
-      "name": "libportal",
-      "buildsystem": "meson",
-      "config-opts": [
-        "-Dtests=false",
-        "-Dbackend-gtk3=disabled",
-        "-Dbackend-gtk4=enabled",
-        "-Dbackend-qt5=disabled",
-        "-Ddocs=false"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://github.com/flatpak/libportal/releases/download/0.9.1/libportal-0.9.1.tar.xz",
-          "sha256": "de801ee349ed3c255a9af3c01b1a401fab5b3fc1c35eb2fd7dfb35d4b8194d7f"
+          "build-commands": ["/usr/lib/sdk/openjdk/install.sh"]
         }
       ]
     },

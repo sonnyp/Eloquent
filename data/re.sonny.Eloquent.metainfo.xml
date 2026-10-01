@@ -37,6 +37,15 @@
     <color type="primary" scheme_preference="dark">#097988</color>
   </branding>
   <releases>
+    <release version="1.6" date="2026-10-xx">
+      <description>
+        <ul>
+          <li>Update LanguageTool to 20260925</li>
+          <li>Use GNOME 51</li>
+          <li>Use OpenJDK 26</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.5" date="2026-08-26">
       <description>
         <ul>

@@ -16,7 +16,7 @@ configure_file(
 )
 
 gjspack = find_program('../troll/gjspack/bin/gjspack')
-gresource = custom_target('gjspack',
+custom_target('gjspack',
   input: ['main.js'],
   output: app_id + '.src.gresource',
   command: [
@@ -24,7 +24,7 @@ gresource = custom_target('gjspack',
     '--appid=' + app_id,
     '--prefix', '/re/sonny/Eloquent',
     '--import-map',  meson.project_source_root() / 'src/import_map.json',
-    '--project-root', meson.source_root(),
+    '--project-root', meson.project_source_root(),
     '--resource-root', meson.project_source_root() / 'src',
     '--no-executable',
     '@INPUT0@',

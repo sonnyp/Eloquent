@@ -43,35 +43,9 @@ java -cp LanguageTool-6.5/languagetool-server.jar org.languagetool.server.HTTPSe
   <summary>Bookmarks</summary>
 
 - [Flathub](https://flathub.org/apps/re.sonny.Eloquent)
-- [Flathub repo](https://github.com/flathub/re.sonny.Eloquent)
-- [Flathub builds](https://flathub.org/builds/#/apps/re.sonny.Eloquent)
+- [Flathub manifest](https://github.com/flathub/re.sonny.Eloquent)
+- [Flathub builds](https://flathub.org/en/builds/apps/re.sonny.Eloquent)
 - [Flathub stats](https://klausenbusk.github.io/flathub-stats/#ref=re.sonny.Eloquent)
-- [Flathub API](https://flathub.org/api/v1/apps/re.sonny.Eloquent)
-</details>
-
-<details>
-
-  <summary>i18n</summary>
-
-```sh
-# To update the pot file
-# xgettext -f po/POTFILES -o po/re.sonny.Eloquent.pot --no-wrap -cTRANSLATORS --from-code=UTF-8
-# sed -i "s/Project-Id-Version: PACKAGE VERSION/Project-Id-Version: re.sonny.Eloquent/" po/re.sonny.Eloquent.pot
-meson compile re.sonny.Eloquent-pot -C build
-
-
-# To create a translation
-# msginit -i po/re.sonny.Eloquent.pot -o po/fr.po -l fr_FR.UTF-8
-echo -n " fr" >> po/LINGUAS
-meson compile re.sonny.Eloquent-update-po -C build
-
-# To update translations
-# msgmerge -U po/*.po po/re.sonny.Eloquent.pot
-meson compile re.sonny.Eloquent-update-po -C build
-```
-
-See https://github.com/sonnyp/Commit/pull/14#issuecomment-894070878
-
 </details>
 
 <details>
@@ -103,6 +77,7 @@ Grammer checker
 - https://grammalecte.net/ (fr)
 - https://github.com/languagetool-org/languagetool (multi)
 - https://1.6km.me/blog/2021/03/30/the-poor-mans-grammar-checker/
+- https://writewithharper.com/
 
 NLP
 
