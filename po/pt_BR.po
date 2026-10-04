@@ -1,0 +1,295 @@
+# Portuguese translations for re.sonny.Eloquent package.
+# Copyright (C) 2025 THE re.sonny.Eloquent'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the re.sonny.Eloquent package.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: re.sonny.Eloquent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-19 22:19-0300\n"
+"PO-Revision-Date: 2025-02-19 21:12-0300\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Brazilian Portuguese\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 47.1\n"
+
+#. TRANSLATORS: Don't translate
+#: data/re.sonny.Eloquent.desktop:3 data/re.sonny.Eloquent.metainfo.xml:5
+msgid "Eloquent"
+msgstr "Eloquent"
+
+#: data/re.sonny.Eloquent.desktop:4 data/re.sonny.Eloquent.metainfo.xml:10
+msgid "Your proofreading assistant"
+msgstr "Seu assistente de revisão"
+
+#. TRANSLATORS: Don't translate
+#: data/re.sonny.Eloquent.desktop:11
+msgid "LanguageTool;spell;grammar;"
+msgstr "LanguageTool;ortografia;gramática;spell;grammar;"
+
+#: data/re.sonny.Eloquent.metainfo.xml:6
+msgid "Sonny Piers"
+msgstr "Sonny Piers"
+
+#: data/re.sonny.Eloquent.metainfo.xml:13
+msgid ""
+"Eloquent is a proofreading software for English, Spanish, French, German, "
+"Portuguese, Polish, Dutch, and more than 20 other languages. It finds many "
+"errors that a simple spell checker cannot detect."
+msgstr ""
+"Eloquent é um software de revisão de texto para inglês, espanhol, francês, "
+"alemão, português, polonês, holandês e mais de 20 outros idiomas. Ele "
+"encontra muitos erros que um corretor ortográfico simples não consegue "
+"detectar."
+
+#: data/re.sonny.Eloquent.metainfo.xml:14
+msgid "It works fully offline, powered by LanguageTool standalone server."
+msgstr ""
+"Ele funciona totalmente offline, alimentado por um servidor autônomo da "
+"LanguageTool."
+
+#: data/re.sonny.Eloquent.metainfo.xml:24
+msgid "Main Window"
+msgstr "Janela principal"
+
+#: data/re.sonny.Eloquent.metainfo.xml:32
+msgid "Improve language detection"
+msgstr "Melhora a detecção do idioma"
+
+#: data/re.sonny.Eloquent.metainfo.xml:33
+msgid "Runs LanguageTool as a service in the background"
+msgstr "Executa LanguageTool como um serviço em segundo plano"
+
+#: data/re.sonny.Eloquent.metainfo.xml:34
+msgid "Clean the list of languages"
+msgstr "Limpa a lista de idiomas"
+
+#: data/re.sonny.Eloquent.metainfo.xml:35
+msgid "Fix a small design bug in the status bar"
+msgstr "Corrige um pequeno bug de design na barra de status"
+
+#: data/re.sonny.Eloquent.metainfo.xml:40
+msgid "This is the first release of Eloquent. We hope you like it."
+msgstr "Este é o primeiro lançamento do Eloquent. Esperamos que você goste."
+
+#. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
+#: src/about.js:29
+msgid "translator-credits"
+msgstr "Rafael Fontenelle <rafaelff@gnome.org>"
+
+#: src/DropdownLang.js:49
+msgid "Auto"
+msgstr "Auto"
+
+#: src/DropdownLang.js:50
+msgid "Arabic"
+msgstr "Árabe"
+
+#: src/DropdownLang.js:51
+msgid "Asturian"
+msgstr "Asturiano"
+
+#: src/DropdownLang.js:52
+msgid "Belarusian"
+msgstr "Bielorrusso"
+
+#: src/DropdownLang.js:53
+msgid "Breton"
+msgstr "Bretão"
+
+#: src/DropdownLang.js:54
+msgid "Catalan"
+msgstr "Catalão"
+
+#: src/DropdownLang.js:55
+msgid "Catalan (Valencian)"
+msgstr "Catalão (Valenciano)"
+
+#: src/DropdownLang.js:56
+msgid "Chinese"
+msgstr "Chinês"
+
+#: src/DropdownLang.js:57
+msgid "Danish"
+msgstr "Dinamarquês"
+
+#: src/DropdownLang.js:58
+msgid "Dutch"
+msgstr "Holandês"
+
+#: src/DropdownLang.js:59
+msgid "English (Australia)"
+msgstr "Inglês (Austrália)"
+
+#: src/DropdownLang.js:60
+msgid "English (British)"
+msgstr "Inglês (Inglaterra)"
+
+#: src/DropdownLang.js:61
+msgid "English (Canada)"
+msgstr "Inglês (Canadá)"
+
+#: src/DropdownLang.js:62
+msgid "English (New Zealand)"
+msgstr "Inglês (Nova Zelândia)"
+
+#: src/DropdownLang.js:63
+msgid "English (South Africa)"
+msgstr "Inglês (África do Sul)"
+
+#: src/DropdownLang.js:64
+msgid "English (US)"
+msgstr "Inglês (EUA)"
+
+#: src/DropdownLang.js:65
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: src/DropdownLang.js:66
+msgid "French"
+msgstr "Francês"
+
+#: src/DropdownLang.js:67
+msgid "Galician"
+msgstr "Galego"
+
+#: src/DropdownLang.js:68
+msgid "German (Austria)"
+msgstr "Alemão (Áustria)"
+
+#: src/DropdownLang.js:69
+msgid "German (Germany)"
+msgstr "Alemanha (Alemanha)"
+
+#: src/DropdownLang.js:70
+msgid "German (Switzerland)"
+msgstr "Alemão (Suíça)"
+
+#: src/DropdownLang.js:71
+msgid "Greek"
+msgstr "Grego"
+
+#: src/DropdownLang.js:72
+msgid "Irish"
+msgstr "Irlandês"
+
+#: src/DropdownLang.js:73
+msgid "Italian"
+msgstr "Italiano"
+
+#: src/DropdownLang.js:74
+msgid "Japanese"
+msgstr "Japonês"
+
+#: src/DropdownLang.js:75
+msgid "Khmer"
+msgstr "Khmer"
+
+#: src/DropdownLang.js:76
+msgid "Norwegian"
+msgstr "Norueguês"
+
+#: src/DropdownLang.js:77
+msgid "Persian"
+msgstr "Persa"
+
+#: src/DropdownLang.js:78
+msgid "Polish"
+msgstr "Polonês"
+
+#: src/DropdownLang.js:79
+msgid "Portuguese (Angola)"
+msgstr "Português (Angola)"
+
+#: src/DropdownLang.js:80
+msgid "Portuguese (Brazil)"
+msgstr "Português (Brasil)"
+
+#: src/DropdownLang.js:81
+msgid "Portuguese (Mozambique)"
+msgstr "Português (Moçambique)"
+
+#: src/DropdownLang.js:82
+msgid "Portuguese (Portugal)"
+msgstr "Português (Portugal)"
+
+#: src/DropdownLang.js:83
+msgid "Romanian"
+msgstr "Romeno"
+
+#: src/DropdownLang.js:84
+msgid "Russian"
+msgstr "Russo"
+
+#: src/DropdownLang.js:85
+msgid "Slovak"
+msgstr "Eslovaco"
+
+#: src/DropdownLang.js:86
+msgid "Slovenian"
+msgstr "Esloveno"
+
+#: src/DropdownLang.js:87
+msgid "Spanish"
+msgstr "Espanhol"
+
+#: src/DropdownLang.js:88
+msgid "Swedish"
+msgstr "Sueco"
+
+#: src/DropdownLang.js:89
+msgid "Tagalog"
+msgstr "Tágalo"
+
+#: src/DropdownLang.js:90
+msgid "Tamil"
+msgstr "Tamil"
+
+#: src/DropdownLang.js:91
+msgid "Ukrainian"
+msgstr "Ucraniano"
+
+#: src/ShortcutsWindow.blp:10
+msgid "Open Main Menu"
+msgstr "Abre o menu principal"
+
+#: src/ShortcutsWindow.blp:15
+msgid "Close Window"
+msgstr "Fecha a janela"
+
+#: src/ShortcutsWindow.blp:20 src/window.blp:106
+msgid "Keyboard Shortcuts"
+msgstr "Atalhos de teclado"
+
+#: src/ShortcutsWindow.blp:25
+msgid "Quit"
+msgstr "Sai"
+
+#: src/window.blp:23
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: src/window.blp:59
+msgid "Characters"
+msgstr "Caracteres"
+
+#: src/window.blp:71
+msgid "Words"
+msgstr "Palavras"
+
+#: src/window.blp:85
+msgid "Number of detected issues"
+msgstr "Número de problemas detectados"
+
+#: src/window.blp:95
+msgid "Waiting for LanguageTool"
+msgstr "Aguardando LanguageTool"
+
+#: src/window.blp:111
+msgid "About Eloquent"
+msgstr "Sobre o Eloquent"
