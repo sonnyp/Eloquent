@@ -198,14 +198,17 @@ export default function Window({ application }) {
 
   dropown_lang.onChange(checkGrammar);
 
-  buffer.connect("changed", () => {
+  function onBufferUpdated() {
     checkGrammar();
     updateCounters();
-  });
+  }
+  buffer.connect("end-user-action", onBufferUpdated);
+
 
   // if (__DEV__) {
   buffer.text = `Write or paste your text here too have it checked continuously. Errors will be underlined in different colours: we will mark seplling errors with red underilnes. Furthermore grammar error's are highlighted in yellow. LanguageTool also marks style issues in a reliable manner by underlining them in blue. Its a impressively versatile tool especially if youd like to tell a colleague from over sea's about what happened at 5 PM in the afternoon on Monday, 27 May 2007.`;
   // }
+  onBufferUpdated()
 
   text_view.grab_focus();
 
@@ -340,14 +343,4 @@ function makeOffsetMap(text) {
   map[utf16Offset] = charOffset;
 
   return map;
-}
-
-function languageToolRangeToGtkIters(buffer, match, offset_map) {
-  const start = offset_map[match.offset];
-  const end = offset_map[match.offset + match.length];
-
-  return [
-    buffer.get_iter_at_offset(start),
-    buffer.get_iter_at_offset(end),
-  ];
 }
