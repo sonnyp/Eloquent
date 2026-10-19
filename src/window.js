@@ -5,7 +5,7 @@ import Pango from "gi://Pango";
 
 import { build } from "troll";
 
-import { retry, unstack } from "./util.js";
+import { retry, coalesce } from "./util.js";
 import { check } from "./languagetool.js";
 import DropdownLang from "./DropdownLang.js";
 
@@ -159,7 +159,7 @@ export default function Window({ application }) {
 
   const dropown_lang = DropdownLang({ dropdown_langs });
 
-  const scheduleCheck = unstack(
+  const scheduleCheck = coalesce(
     () =>
       retry(
         () => check(buffer.text, dropown_lang.getLanguage()),

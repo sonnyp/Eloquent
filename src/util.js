@@ -3,28 +3,34 @@ export function noop() {}
 // Take a function that return a promise and returns a function
 // that will discard all calls during a pending execution
 // it's like a job queue with a max size of 1 and no concurrency
-export function unstack(fn, onResolve = noop, onReject = console.error) {
-  let latest_promise;
+export function coalesce(fn, onResolve = noop, onReject = console.error) {
+  let running = false;
+  let queued = false;
   let latest_arguments;
-  let pending = false;
 
-  return function unstack_wrapper(...args) {
+  async function run() {
+    running = true;
+    try {
+      do {
+        queued = false;
+        try {
+          onResolve(await fn(...latest_arguments));
+        } catch (err) {
+          onReject(err);
+        }
+      } while (queued);
+    } finally {
+      running = false;
+    }
+  }
+
+  return function coalesce_wrapper(...args) {
     latest_arguments = args;
-
-    if (pending) return;
-
-    if (!latest_promise)
-      latest_promise = fn(...latest_arguments)
-        .then(onResolve)
-        .catch(onReject);
-
-    pending = true;
-    latest_promise.finally(() => {
-      pending = false;
-      latest_promise = fn(...latest_arguments)
-        .then(onResolve)
-        .catch(onReject);
-    });
+    if (running) {
+      queued = true;
+      return;
+    }
+    run();
   };
 }
 
